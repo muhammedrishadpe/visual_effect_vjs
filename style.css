@@ -1,15 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lexend Exa', sans-serif;
+}
 .intro-text {
-    width: 30%;
+    width: 50%;
     opacity: 1;
-    transform: translateY(20px);
-    transition: 0.5s all ease-in-out;
+    transform: translateY(25px);
+    transition: 0.6s all ease-in-out;
 }
 
 .intro-appear {
     opacity: 1;
     transform: translateY(0px);
+    color:aquamarine
+
 }
 
 img{
     width: 100%;
+}
+
+.intro-title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    padding-top: 4em;
+}
+
+.intro-content img {
+    width: 100%;
+    height: min-content;
+    padding-left: 6em;
 }
